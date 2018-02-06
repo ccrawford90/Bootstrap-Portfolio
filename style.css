@@ -31,10 +31,42 @@ h3 {
     padding: 05px;
 }
 
+.socialMedia {
+    background-color: rgb(97, 117, 109);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    padding: 05px;
+    overflow: hidden;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
 img {
     padding-left: 4px;
     padding-right: 10px;
     float: left;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(97, 117, 109);
+    color: whitesmoke;
+    text-align: center;
 }
 
 .contact {
