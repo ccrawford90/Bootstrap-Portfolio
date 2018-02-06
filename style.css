@@ -18,7 +18,7 @@ h1 {
     font-weight: bold;
 }
 
-h3 {
+h3.aboutme {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     padding-left: 27px;
@@ -29,33 +29,40 @@ h3 {
     font-family: 'Oswald', sans-serif;
     color: whitesmoke;
     padding: 05px;
+    width: 100%;
 }
 
 .socialMedia {
     background-color: rgb(97, 117, 109);
-    text-align: center;
     font-family: 'Oswald', sans-serif;
-    color: whitesmoke;
-    padding: 05px;
-    overflow: hidden;
-}
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
     text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
+    color: whitesmoke;
+    overflow: hidden;
+    width: 40%;
 }
 
-.fa:hover {
-    opacity: 0.7;
-}
 
 img {
     padding-left: 4px;
     padding-right: 10px;
+    float: left;
+}
+
+img.github {
+    height: 25%;
+    width: 25%;
+    clear: both;
+}
+
+img.linkedin {
+    height: 25%;
+    width: 25%;
+    float: left;    
+}
+
+img.stack {
+    height: 25%;
+    width: 25%;
     float: left;
 }
 
