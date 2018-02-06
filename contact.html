@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html ln="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Christopher Crawford</title>
+    <!--Reset-->
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <!--Style Sheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+   
+</head>
+<body>
+<!--Nav Bar-->
+<ul class="nav nav-tabs navbar-fixed-top">
+    <div class="container">
+        <h1>Christopher Crawford</h1>
+        <a class="nav-item nav-link disabled" href="./index.html">About</a>
+        <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+        <a class="nav-item nav-link" href="./contact.html">Contact</a>
+    </div>
+</ul>
+
+<!-- main content area -->
+<div class="container">
+<div class="contact">   
+    <div class="row justify-content-between">
+    <!-- contact form -->
+    <div class="col-xs-12 col-sm-12 col-md-7 p-4 mt-5 contactForm">
+    <h2>Contact</h2>
+        <br>
+        <form id="contact-form" method="post" action="contact.php" role="form">
+        <div class="messages"></div>
+        <div class="controls">
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <br><br>
+                        <label for="form_name">Name *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name *" required="required"
+                            data-error="Firstname is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required"
+                        data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+            <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required"
+                        data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                        </div>
+                    <p>*required</p>
+                </div>
+                <div class="col-md-12">
+                <input type="submit" class="submit" value="Connect">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+
+</body>
+</html>

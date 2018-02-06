@@ -1,0 +1,48 @@
+body { 
+    background: url("https://source.unsplash.com/pKXalTOLVV4/1600x900")no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+nav {
+    background-color: #333737;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding-left: 27px;
+}
+
+.aboutMe {
+    background-color: rgb(97, 117, 109);
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    padding: 05px;
+}
+
+img {
+    padding-left: 4px;
+    padding-right: 10px;
+    float: left;
+}
+
+.contact {
+    text-align: center;
+    color: whitesmoke;
+}
+
+input.submit {
+    background-color: #333737;
+    color: black;
+}
